@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    background: #C4C4C4;
+    font-family: "roboto";
+    color: #fff;
+}
+.w0{
+    max-width: 1150px;
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ww{
+    background: #E6E6E6;
+    overflow: hidden;
+}
+.w1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background: #FC8F8F;
+}
+.w2{
+    width: 200px;
+    height: 200px;
+    float: right;
+    background: #FC8F8F;
+}
+.w4{
+    float: right;
+    margin: 0 auto;
+}
+.s1{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 0 0 15px;
+    background: #FC8F8F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+.ww1{
+    float: left;
+    margin: 0 15px 0 0;
+}
+.ww2{
+    float: left;
+}
+.ww3{
+    float: right;
+}
+.ww3 > .w2{
+    margin: 0 0 0 15px;
+}
+.w1 , .w2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
